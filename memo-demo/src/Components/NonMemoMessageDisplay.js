@@ -1,3 +1,4 @@
+// no memo :(
 import React from 'react'
 
 const NonMemoMessageDisplay = (props) => {

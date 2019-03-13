@@ -1,3 +1,5 @@
+// nothing special about this component
+// just getting some data from the GitHub API and using in our JSX
 import React from 'react'
 import axios from 'axios'
 
