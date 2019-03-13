@@ -13,6 +13,7 @@ class App extends Component {
 	}
 
 	render() {
+		console.log(this.textInput);
 		return (
 			<div>
 				<h3>UserName: {this.state.value}</h3>

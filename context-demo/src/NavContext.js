@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {createContext} from 'react'
 
-const NavBarContext = React.createContext({})
+const NavBarContext = createContext({})
 
 export const NavProvider = NavBarContext.Provider
 export const NavConsumer = NavBarContext.Consumer
