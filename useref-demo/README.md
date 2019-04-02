@@ -1,0 +1,2 @@
+# React useRef
+useRef is the hook to attach a reference, or ref, to an element on the DOM. The difference between `createRef()` and `useRef()`? `createRef()` will always create a new ref if used outside of the constructor while `useRef` will return the same ref each rerender.
