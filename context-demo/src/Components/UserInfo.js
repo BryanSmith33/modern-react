@@ -6,7 +6,7 @@ import { NavConsumer } from '../NavContext';
 const UserInfo = () => {
   return (
     <NavConsumer>
-      {(value) => <h3>{value}</h3>}
+      {(data) => <h3>{data}</h3>}
     </NavConsumer>
   )
 }

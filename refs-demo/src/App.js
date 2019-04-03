@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, createRef } from 'react'
 
 class App extends Component {
 	// creating a reference, or ref. We can call it whatever we want
 	// we can attach this ref to any element inside of the render
 	// we use this to target/manipulate the element
 	// in this case we are using it to get the value from the input
-	textInput = React.createRef()
+	textInput = createRef()
 	state = {
 		value: ''
 	}
